@@ -66,6 +66,13 @@ html {
     transform: translateY(-2000px);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: invert(1);
+  }
+}
+
 </style>
 </head>
 <body>
